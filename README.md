@@ -28,7 +28,7 @@ LightSail과 VSC 연동 후 express 접속 테스트
 	const express = require('express')
 	const app = express()
 	app.get('/', function(req,res){res.send("hello")})
-	app.listen(3000, function(){console.log('server on!')})
+	app.listen(3000, function(){console.log('server running!')})
 
 16. 🎈vsc에서 /opt/bitnami/apache2/conf/bitnami 경로에 bitnami-apps-prefix.conf 파일 생성후
 	ProxyPass / http://127.0.0.1:3000
