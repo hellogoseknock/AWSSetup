@@ -21,7 +21,7 @@ LightSail과 VSC 연동 후 express 접속 테스트
 10. 웹터미널 안열리는 경우 홈->인스턴스 ->점세개->재부팅 선택후 3분 정도 기다리면 Ok (낮은 성능 때문?)
 
 11. 작업 폴더에서 npm init 으로 package.json 파일 생성
-12. touch로 package.json의 자동생성된 main키값인 index.js 생성
+12. touch로 package.json의 자동생성된 main 항목 키값인 index.js 생성
 13. 작업 폴더에서 npm install --save exrpress 로 익스프레스 프레임워크 설치
 14. 코드 에디팅중 (역시 아무이유 없이 ssh재연결 무한 상태, cpu점유율45%, 호스팅 리부팅)
 15. index.js 코드
