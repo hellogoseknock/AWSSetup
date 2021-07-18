@@ -37,7 +37,7 @@ LightSail과 VSC 연동 후 express 접속 테스트
 	2줄 추가
 
 17. 🎈sudo /opt/bitnami/ctlscript.sh restart apache 아파치웹(프록시)서버 재시작
-18. 🎈홈->인스턴스 ->점세개->관리->네트워킹 이동후 IPv4 방화벽에 (사용자지정, TCP, 3000)규칙 추가 
+18. 🎈홈->인스턴스->점세개->관리->네트워킹 이동후 IPv4 방화벽에 (사용자지정, TCP, 3000)규칙 추가 
 18. node index.js 실행
 19. 웹브라우져에서 고정아이피:3000 로 접속, OK
 
