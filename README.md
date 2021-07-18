@@ -1,5 +1,3 @@
-# AWSSetup
-once upon a time...
 
 0. 홈->인스턴스 -> Node-js 스택 설치
 1. 홈->네트워킹 -> 퍼블릭 고정 IP 주소 연결
