@@ -2,8 +2,8 @@
 once upon a time...
 
 0. 홈->인스턴스 -> Node-js 스택 설치
-1. 홈->네트워킹 -> 퍼블릭 고정 IP 주소 연결 
-2 계정->계정->SSH키 에서 발급받은 키 리전에서 다운로드후 C:\Users\bugassi\.ssh 경로로 옮김
+1. 홈->네트워킹 -> 퍼블릭 고정 IP 주소 연결
+2. 계정->계정->SSH키 에서 발급받은 키 리전에서 다운로드후 C:\Users\bugassi\.ssh 경로로 옮김
 3A. known_hosts 파일이 보이면 일단 삭제후
 3B. config 파일 열고 Host 이름 변경
 3C. config 파일 열고 HostName 고정ip 변경 및  User 이름 확인후 필요하면 변경
