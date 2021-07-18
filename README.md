@@ -3,7 +3,7 @@ LightSail과 VSC 연동
 
 0. 홈->인스턴스 -> Node-js 스택 설치
 1. 홈->네트워킹 -> 퍼블릭 고정 IP 주소 연결
-2. 계정->계정->SSH키 에서 발급받은 키 리전에서 다운로드후 C:\Users\bugassi\.ssh 경로로 옮김
+2. 🎈계정->계정->SSH키 에서 발급받은 키를 리전에서 다운로드후 경로 C:\Users\...\.ssh\ 옮김
 
 3a. known_hosts 파일이 보이면 일단 삭제후
 3b. config 파일 열고 Host 이름 변경
@@ -11,7 +11,7 @@ LightSail과 VSC 연동
 3d. config 파일 열고 dentityFile 경로\LightsailDefaultKey-ap-northeast-2.pem 추가
 
 4. VSC에서 remote-ssh 익스텐션 없으면 설치
-5. VSC에서 F1 단축키로 커맨드팔렛 창 열고 remote-ssh:connect to host 명령실행
+5. 🎈VSC에서 F1 단축키로 커맨드팔렛 창 열고 remote-ssh:connect to host 명령실행
 6. config의 호스트 이름 선택,  (리눅스타입) 선택
 7. 신규 VSC 에디터가 열리고 Open Folder에서 작업 폴더 선택 (없으면 웹브라우져 터미널로 생성) 
 8. Yes, I trust the....버튼 선택 하면 SSH및 SFTP없이 각종 명령 원격 실행 가능함!
@@ -29,12 +29,12 @@ LightSail과 VSC 연동
 	app.get('/', function(req,res){res.send("hello")})
 	app.listen(3000, function(){console.log('server on!')})
 
-16. vsc에서 /opt/bitnami/apache2/conf/bitnami 경로에 bitnami-apps-prefix.conf 파일 생성후
+16. 🎈vsc에서 /opt/bitnami/apache2/conf/bitnami 경로에 bitnami-apps-prefix.conf 파일 생성후
 	ProxyPass / http://127.0.0.1:3000
 	ProxyPassReverse / http://127.0.0.1:3000
 
-17. sudo /opt/bitnami/ctlscript.sh restart apache 아파치웹(프록시)서버 재시작
-18. 홈->인스턴스 ->점세개->관리->네트워킹 이동후 IPv4 방화벽에 (사용자지정, TCP, 3000)규칙 추가 
+17. 🎈sudo /opt/bitnami/ctlscript.sh restart apache 아파치웹(프록시)서버 재시작
+18. 🎈홈->인스턴스 ->점세개->관리->네트워킹 이동후 IPv4 방화벽에 (사용자지정, TCP, 3000)규칙 추가 
 18. node index.js 실행
 19. 웹브라우져에서 고정아이피:3000 로 접속, OK
 
