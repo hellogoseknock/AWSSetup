@@ -3,10 +3,10 @@
 1. 홈->네트워킹 -> 퍼블릭 고정 IP 주소 연결
 2. 계정->계정->SSH키 에서 발급받은 키 리전에서 다운로드후 C:\Users\bugassi\.ssh 경로로 옮김
 
-3A. known_hosts 파일이 보이면 일단 삭제후
-3B. config 파일 열고 Host 이름 변경
-3C. config 파일 열고 HostName 고정ip 변경 및  User 이름 확인후 필요하면 변경
-3D. config 파일 열고 dentityFile 경로\LightsailDefaultKey-ap-northeast-2.pem 추가
+3a. known_hosts 파일이 보이면 일단 삭제후
+3b. config 파일 열고 Host 이름 변경
+3c. config 파일 열고 HostName 고정ip 변경 및  User 이름 확인후 필요하면 변경
+3d. config 파일 열고 dentityFile 경로\LightsailDefaultKey-ap-northeast-2.pem 추가
 
 4. VSC에서 remote-ssh 익스텐션 없으면 설치
 5. VSC에서 F1 단축키로 커맨드팔렛 창 열고 remote-ssh:connect to host 명령실행
