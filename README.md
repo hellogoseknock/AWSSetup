@@ -29,10 +29,12 @@ LightSail과 VSC 연동 후 express 접속 테스트
 	const app = express()
 	app.get('/', function(req,res){res.send("hello")})
 	app.listen(3000, function(){console.log('server running!')})
+	4줄 추가
 
 16. 🎈vsc에서 /opt/bitnami/apache2/conf/bitnami 경로에 bitnami-apps-prefix.conf 파일 생성후
 	ProxyPass / http://127.0.0.1:3000
-	ProxyPassReverse / http://127.0.0.1:3000 두 줄 추가
+	ProxyPassReverse / http://127.0.0.1:3000 
+	2줄 추가
 
 17. 🎈sudo /opt/bitnami/ctlscript.sh restart apache 아파치웹(프록시)서버 재시작
 18. 🎈홈->인스턴스 ->점세개->관리->네트워킹 이동후 IPv4 방화벽에 (사용자지정, TCP, 3000)규칙 추가 
