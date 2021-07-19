@@ -1,4 +1,4 @@
-![Cap 2021-07-19 09-21-55-614](https://user-images.githubusercontent.com/61546237/126086889-ead6cbe0-3979-494e-bc94-80b82f6ceca4.png)
+
 <pre>
 LightSail과 VSC 연동 후 express 접속 테스트
 
@@ -43,3 +43,4 @@ LightSail과 VSC 연동 후 express 접속 테스트
 19. 웹브라우져에서 고정아이피:3000 로 접속, OK
 
 </pre>
+![Cap 2021-07-19 09-21-55-614](https://user-images.githubusercontent.com/61546237/126086889-ead6cbe0-3979-494e-bc94-80b82f6ceca4.png)
