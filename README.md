@@ -4,7 +4,7 @@ LightSail과 VSC 연동 후 express 접속 테스트
 
 0. 홈->인스턴스 -> Node-js 스택 설치
 1. 홈->네트워킹 -> 퍼블릭 고정 IP 주소 연결
-2. 🎈계정->계정->SSH키 에서 발급받은 키를 리전에서 다운로드후 경로 C:\Users\계정\.ssh\ 옮김
+2. 🎈계정->계정 -> SSH키 에서 발급받은 키를 리전에서 다운로드후 경로 C:\Users\계정\.ssh\ 옮김
 
 3a. known_hosts 파일이 보이면 일단 삭제후
 3b. config 파일 열고 Host 이름 변경
