@@ -8,7 +8,7 @@ LightSail과 VSC 연동 후 express 접속 테스트
 
 3a. known_hosts 파일이 보이면 일단 삭제후
 3b. config 파일 열고 Host 이름 변경
-3c. 		     HostName 고정ip 변경 및  User 이름(bitnami) 확인후 필요하면 변경
+3c. 		     HostName ip 변경 및  User 이름(bitnami) 확인후 필요하면 변경
 3d. 		     IdentityFile 절대경로\LightsailDefaultKey-ap-northeast-2.pem 추가
 
 4. VSC에서 remote-ssh 익스텐션 없으면 설치
