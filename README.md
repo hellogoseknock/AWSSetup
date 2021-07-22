@@ -1,5 +1,5 @@
 
-<a href="https://hellogoseknock.github.io/home/">three.js - first sample</a>
+<a href="https://hellogoseknock.github.io/home/">three.js - first sample(큐브회전)</a>
 
 <pre>
 LightSail과 VSC 연동 후 express 접속 테스트
